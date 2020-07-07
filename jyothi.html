@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Box</title>
+	<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		.grid{
+			display: flex;
+			flex-wrap: wrap;
+		justify-content: space-between;
+			flex-direction: row;
+			align-self: flex-start;
+			padding-left: 3%;
+			
+
+		}
+		img{
+			width: 250px;
+			height: 250px;
+			padding: 25px;
+			margin: 10px;
+			border: 1px solid black;
+			border-width: 2px;
+			border-radius: 5%;
+
+
+
+		}
+		header{
+			text-align: center;
+			color: solid black;
+			padding: 1%;
+			font-size: 30px;
+		}
+		@media only screen and(max-width: 600px){
+			.grid{
+			display: flex;
+			flex-wrap: wrap;
+		justify-content: space-between;
+			flex-direction: row;
+			align-self: flex-start;
+			padding-left: 3%;
+			
+
+		}
+		img{
+			width: 250px;
+			height: 250px;
+			padding: 25px;
+			margin: 10px;
+			border: 1px solid black;
+			border-width: 2px;
+			border-radius: 5%;
+
+
+
+		}
+			
+	}
+	</style>
+</head>
+<body>
+	<header>IMAGES</header>
+	<div class="grid">
+
+		<img src="jyo1.jpg">
+		<img src="jyo2.jpg">
+		<img src="jyo3.jpg">
+		<img src="jyo4.jpg">
+		<img src="jyo5.jpg">
+		
+	</div>
+</body>
+</html>
